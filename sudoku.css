@@ -1,0 +1,50 @@
+body{
+    background-color: pink;
+}
+#initialBoard{
+    float: left;
+    margin-left: 20%;
+    margin-top: 5%;
+  
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 20px;
+    color: rgb(230, 15, 15);
+    outline-color:red;
+}
+.titulo_1:hover{
+    color: aqua;
+}
+input{
+    margin-left: 20px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+    outline-color:red;
+    height: 20px;
+}
+input:hover{
+    color: brown;
+    background-color: aqua;
+    rotate: 10px;
+}
+.buttonsolve{
+    margin-top: 20px;
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: white;
+    color: darkcyan;
+    outline-color:red;
+    height: 20px;
+    
+    
+}
+.buttonsolve:hover{
+    color: brown;
+    background-color: aqua;
+    rotate: 10px;
+}
